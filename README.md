@@ -2,7 +2,8 @@
 
 Клонирование репозитория
 
-bashCopygit clone https://github.com/username/auth2-0.git
+bash
+git clone https://github.com/username/auth2-0.git
 cd auth2-0
 
 Установка зависимостей
