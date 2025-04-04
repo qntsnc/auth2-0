@@ -1,0 +1,96 @@
+/* Темная тема */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.auth-container,
+.profile-container {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  border: 1px solid #3d3d3d;
+}
+
+input:focus {
+  border-color: #8a2be2;
+  outline: none;
+}
+
+.btn {
+  background-color: #8a2be2;
+}
+
+.btn:hover {
+  background-color: #7719c9;
+}
+
+.btn-outline {
+  border-color: #8a2be2;
+  color: #8a2be2;
+}
+
+.btn-outline:hover {
+  background-color: #8a2be2;
+  color: #e0e0e0;
+}
+
+.tab.active {
+  border-bottom-color: #8a2be2;
+  color: #8a2be2;
+}
+
+.tabs {
+  border-bottom-color: #333;
+}
+
+.profile-info,
+.data-section {
+  background-color: #292929;
+  border: 1px solid #333;
+}
+
+.data-table th {
+  background-color: #333;
+}
+
+.data-table td {
+  border-bottom-color: #444;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #252525;
+}
+
+.data-table tr:hover {
+  background-color: #302344;
+}
+
+/* Переопределяем цвета сообщений для темной темы */
+.message.error {
+  background-color: #3f0f0f;
+  color: #ff8a8a;
+  border: 1px solid #662222;
+}
+
+.message.success {
+  background-color: #0f3f0f;
+  color: #8aff8a;
+  border: 1px solid #226622;
+}
+
+/* Стиль для переключателя темы в темной теме соответствует общему стилю в styles.css,
+   но с некоторыми изменениями для темного фона */
+#theme-toggle {
+  background-color: #1e1e1e;
+  color: #8a2be2;
+}
+
+#theme-toggle:hover {
+  background-color: #8a2be2;
+  color: #ffffff;
+}
