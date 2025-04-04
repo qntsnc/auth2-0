@@ -2,16 +2,18 @@
 
 Клонирование репозитория
 
-bashCopygit clone https://github.com/username/auth-cache-session-app.git
-cd auth-cache-session-app
+bashCopygit clone https://github.com/username/auth2-0.git
+cd auth2-0
 
 Установка зависимостей
 
-bashCopynpm install
+bash
+npm install
 
 Запуск сервера
 
-bashCopy# Для обычного запуска
+bash
+# Для обычного запуска
 npm start
 
 # Для разработки с автоматической перезагрузкой
